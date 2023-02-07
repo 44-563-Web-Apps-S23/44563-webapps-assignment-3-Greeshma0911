@@ -67,7 +67,15 @@
             <p>Here is a question from stack overflow</p>
             <blockquote>How to return the last n number of values corresponding to a specific category?</blockquote>
             <a href="https://stackoverflow.com/questions/75342892/how-to-return-the-last-n-number-of-values-corresponding-to-a-specific-category"><blockquote cite="https://stackoverflow.com/questions/75342892/how-to-return-the-last-n-number-of-values-corresponding-to-a-specific-category">Link to stackoverflow page</blockquote></a>
-            <pre><p><a href="mailto:someone@yoursite.com">Email Us</a></p></pre>
+            <pre>
+                <form action="iframe.php" target="my-iframe" method="post">
+			
+                    <label for="text">Some text:</label>
+                    <input type="text" name="text" id="text">
+                    <input type="submit" value="post">
+                </form>
+                <iframe name="my-iframe" src="iframe.php"></iframe>
+            </pre>
         </body>
     </head>
 </html>
